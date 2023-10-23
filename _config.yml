@@ -143,6 +143,7 @@ defaults:
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
       permalink: /posts/:title/
+
   - scope:
       path: _drafts
     values:
@@ -161,6 +162,7 @@ defaults:
       path: assets/js/dist
     values:
       swcache: true
+
 
 sass:
   style: compressed
