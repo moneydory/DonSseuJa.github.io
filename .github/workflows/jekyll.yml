@@ -6,13 +6,13 @@
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: Deploy Jekyll site to Pages
 
-on: []   #워크플로우 비활성화를 위해 []를 추가함
+on:    #워크플로우 비활성화를 위해 on: []으로 했다가 추가했다가 다시 지움
   # Runs on pushes targeting the default branch
-  #push:                 *워크플로우 비활성화를 위해 주석처리함
-  #  branches: ["main"]  *워크플로우 비활성화를 위해 주석처리함
+  push:                 #워크플로우 비활성화를 위해 주석처리했다가 다시 원상복구함(404에러가 뜸)
+    branches: ["main"]  #워크플로우 비활성화를 위해 주석처리했다가 다시 원상복구함
 
   # Allows you to run this workflow manually from the Actions tab
-  #workflow_dispatch:     *워크플로우 비활성화를 위해 주석처리함
+  workflow_dispatch:     #워크플로우 비활성화를 위해 주석처리했다가 다시 원상복구함
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
